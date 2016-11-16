@@ -1,7 +1,7 @@
 <root>
 <mobilebase>
 	<cadEngine>
-		<git>https://github.com/madhephaestus/laser-cut-robot.git</git>
+		<git>https://github.com/DataManiac18/laser-cut-robot.git</git>
 		<file>laserCutCad.groovy</file>
 	</cadEngine>
 	<driveEngine>
@@ -14,7 +14,7 @@
 
 <name>DefaultLeg</name>
 	<cadEngine>
-		<git>https://github.com/madhephaestus/laser-cut-robot.git</git>
+		<git>https://github.com/DataManiac18/laser-cut-robot.git</git>
 		<file>feetCad.groovy</file>
 	</cadEngine>
 	<kinematics>
@@ -38,14 +38,14 @@
 	<homingTPS>10000000</homingTPS>
 	<vitamins>
 	<vitamin>
-	    <name>electroMechanical</name>
-	    <type>hobbyServo</type>
-	    <id>hv6214mg</id>
+		<name>electroMechanical</name>
+		<type>hobbyServo</type>
+		<id>hv6214mg</id>
 	</vitamin>
 	<vitamin>
-	<name>shaft</name>
-	<type>hobbyServoHorn</type>
-	<id>standard4</id>
+		<name>shaft</name>
+		<type>hobbyServoHorn</type>
+		<id>standard4</id>
 	</vitamin>
 
 </vitamins>
@@ -206,7 +206,7 @@
 
 <name>DefaultLeg2</name>
 	<cadEngine>
-		<git>https://github.com/madhephaestus/laser-cut-robot.git</git>
+		<git>https://github.com/DataManiac18/laser-cut-robot.git</git>
 		<file>feetCad.groovy</file>
 	</cadEngine>
 	<kinematics>
@@ -397,10 +397,12 @@
 <leg>
 
 <name>DefaultLeg3</name>
-	<cadEngine>
-		<git>https://github.com/madhephaestus/laser-cut-robot.git</git>
+	
+		<cadEngine>
+		<git>https://github.com/DataManiac18/laser-cut-robot.git</git>
 		<file>feetCad.groovy</file>
-	</cadEngine>
+		</cadEngine>
+	
 	<kinematics>
 		<git>https://gist.github.com/375b47a8e071608688a1.git</git>
 		<file>DH-Solver.groovy</file>
@@ -590,7 +592,7 @@
 
 <name>DefaultLeg4</name>
 	<cadEngine>
-		<git>https://github.com/madhephaestus/laser-cut-robot.git</git>
+		<git>https://github.com/DataManiac18/laser-cut-robot.git</git>
 		<file>feetCad.groovy</file>
 	</cadEngine>
 	<kinematics>
@@ -990,15 +992,15 @@
 	<roty>0.0</roty>
 	<rotz>0.0</rotz>
 </baseToZframe>
-<mass>0.01</mass>
-<centerOfMassFromCentroid>	<x>0.0</x>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>	<x>0.0</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>0.0</rotx>
 	<roty>0.0</roty>
 	<rotz>0.0</rotz></centerOfMassFromCentroid>
-<imuFromCentroid>	<x>0.0</x>
+	<imuFromCentroid>	<x>0.0</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
